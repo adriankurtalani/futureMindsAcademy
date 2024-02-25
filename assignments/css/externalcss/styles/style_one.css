@@ -1,0 +1,29 @@
+/* Styling first one css file */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    width: 200px;
+}
+
+.firsth1 {
+    background-color: violet;
+}
+
+.firstp1 {
+    background-color: yellow;
+}
+
+.firsth2 {
+    background-color: rgb(116, 255, 116);
+}
+
+.secondp2 {
+    background-color: rgb(101, 196, 255);
+}
