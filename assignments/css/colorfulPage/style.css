@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(98, 255, 98);
+    padding: 15px;
+}
+
+.navbar {
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+    text-align: center;
+}
+
+.home {
+    color: white;
+    text-decoration: none;
+}
+
+.about {
+    color: white;
+    text-decoration: none;
+}
+
+.foto {
+    text-align: center;
+}
+
+.foto1 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
+}
