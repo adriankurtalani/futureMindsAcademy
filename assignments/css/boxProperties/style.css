@@ -1,0 +1,20 @@
+body {
+    background-color: burlywood;
+}
+
+p {
+    float: left;
+    width: 40%;
+}
+
+img {
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+img:hover {
+    border: 5px solid black;
+    cursor: pointer;
+    width: 310px;
+}
