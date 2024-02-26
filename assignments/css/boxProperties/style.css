@@ -17,4 +17,6 @@ img:hover {
     border: 5px solid black;
     cursor: pointer;
     width: 310px;
+    border-style: dashed;
+    border-color: red;
 }
