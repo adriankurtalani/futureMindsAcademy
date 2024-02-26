@@ -1,0 +1,54 @@
+/* Styling Personal Portfolio */
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;
+}
+
+/* Body Image 
+body {
+    background-image: url(./images/bodyimage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    */
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    text-align: center;
+    height: 50px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav1 {
+    background-color: hsl(200, 99%, 35%);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav1:hover {
+    background-color: rgb(132, 216, 255);
+}
+
+.card1 {
+    background-color: yellow;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid hsl(0, 0%, 10%);
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
