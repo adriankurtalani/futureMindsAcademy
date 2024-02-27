@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: crosshair;
+}
+
+body {
+    margin: 0 150px;
+    padding: 0;
+    background-image: url(./images/body.jpg)
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Global */
+
+.centerText {
+    text-align: center;
+}
+
+.bgYellow {
+    background-color: yellow;
+}
+
+.bgYellow:hover {
+    background-color: rgb(207, 207, 4);
+}
+
+.bgRed {
+    background-color: red;
+}
+
+.bgRed:hover {
+    background-color: rgb(172, 0, 0);
+}
+
+.bgGreen {
+    background-color: green;
+}
+
+.bgGreen:hover {
+    background-color: rgb(48, 237, 48);
+}
+
+.bgPink {
+    background-color: pink;
+}
+
+.bgPink:hover {
+    background-color: rgb(205, 144, 154);
+}
+
+.bgBlack {
+    background-color: black;
+}
+
+.bgAqua {
+    background-color: aqua;
+}
+
+.bgAqua:hover {
+    background-color: rgb(3, 185, 185);
+}
+
+.bgPurple {
+    background-color: purple;
+}
+
+.bgPurple:hover {
+    background-color: rgb(81, 2, 81);
+}
+
+.bgOrange {
+    background-color: orange;
+}
+
+.bgOrange:hover {
+    background-color: rgb(172, 113, 3);
+}
+
+.colorWhite {
+    color: white;
+}
+
+button {
+    background-color: green;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+}
+
+header {
+    margin: 15px;
+    padding: 20px;
+}
+
+nav a {
+    border-radius: 8px;
+    width: 100px;
+    background-color: rgb(84, 249, 255);
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(50, 183, 255);
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.card {
+    border-radius: 25px;
+    border: 3px solid transparent;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card:hover {
+    border: 3px solid black;
+}
+
+.card .primarySchool,
+.highschool,
+.university {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: white;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
